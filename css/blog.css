@@ -1,0 +1,104 @@
+:root{
+    --font-color3: rgba(0, 0, 0, 0.726);
+}
+
+.blog{
+    margin-top: 11.2rem;
+    padding: 2rem 4rem;
+    background: rgb(245, 245, 255)
+}
+
+.blog h1{
+    font-size: 3.8rem;
+    padding: 2rem 0;
+    padding-left: 4rem;
+    color: var(--font-color3);
+}
+
+.blog .box-container .box{
+    padding: 4rem;
+    width: 80%;
+    box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+}
+
+.blog .box-container .box h4{
+    font-size: 2rem;
+    font-weight: 100;
+    color: grey;
+}
+
+.blog .box-container .box h2{
+    font-size: 3rem;
+    padding: 1rem 0;
+    color: var(--font-color3);
+}
+
+.blog .box-container .box p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: rgb(102, 102, 102);
+}
+
+.blog .box-container .box a{
+    font-size: 2rem;
+}
+
+.footer{
+    margin-top: 4rem;
+}
+
+
+
+
+@media (max-width: 1030px) {
+    .blog{
+        margin-top: 10rem;
+    }
+
+    .blog .box-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog .box-container .box{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .blog .box-container .box h2{
+        font-size: 2.5rem;
+    }
+
+    .blog .box-container .box p{
+        font-size: 1.7rem;
+    }
+
+    .blog .box-container .box{
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 390px){
+    .blog h1{
+        padding-left: 1rem;
+        font-size: 3rem;
+    }
+
+    .blog{
+        padding: 2rem 2rem;
+    }
+
+    .blog .box-container .box h2{
+        font-size: 2.2rem;
+    }
+
+    .blog .box-container .box p{
+        font-size: 1.5rem;
+    }
+}
